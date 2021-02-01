@@ -4,9 +4,9 @@
 // in the order you visited them.
 function dfs(root){
     if (!root) return [];
-    let left = dfs(root.left)
-    let right = dfs(root.right)
-    return [root.val, ...left, ...right]
+    let left = dfs(root.left);
+    let right = dfs(root.right);
+    return [root.val, ...left, ...right];
 }
 
 module.exports = { dfs };
