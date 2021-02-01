@@ -4,8 +4,8 @@
 class TreeNode {
     constructor(value) {
         this.val = value;
-        this.left = null
-        this.right = null
+        this.left = null;
+        this.right = null;
     }
 }
 
