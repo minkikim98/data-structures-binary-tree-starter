@@ -20,4 +20,4 @@ function buildTree(preorder, inorder) {
   root.right = buildTree(rightPreoder, rightInorder);
 
   return root;
-}
+};
